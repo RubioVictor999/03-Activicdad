@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE04FE12ACED2F6003B06DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04FE02ACED2F6003B06DB /* AppDelegate.swift */; };
+		DDE04FE32ACED2F6003B06DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04FE22ACED2F6003B06DB /* SceneDelegate.swift */; };
+		DDE04FE52ACED2F6003B06DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04FE42ACED2F6003B06DB /* ViewController.swift */; };
+		DDE04FE82ACED2F6003B06DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE04FE62ACED2F6003B06DB /* Main.storyboard */; };
+		DDE04FEA2ACED2F7003B06DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE04FE92ACED2F7003B06DB /* Assets.xcassets */; };
+		DDE04FED2ACED2F7003B06DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE04FEB2ACED2F7003B06DB /* LaunchScreen.storyboard */; };
+		DDE04FF82ACED2F8003B06DB /* _3_ActivicdadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE04FF72ACED2F8003B06DB /* _3_ActivicdadTests.swift */; };
+		DDE050032ACED2F8003B06DB /* _3_ActivicdadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE050022ACED2F8003B06DB /* _3_ActivicdadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE04FF42ACED2F8003B06DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE04FD52ACED2F5003B06DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE04FDC2ACED2F6003B06DB;
+			remoteInfo = "03 Activicdad";
+		};
+		DDE04FFF2ACED2F8003B06DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE04FD52ACED2F5003B06DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE04FDC2ACED2F6003B06DB;
+			remoteInfo = "03 Activicdad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE04FDD2ACED2F6003B06DB /* 03 Activicdad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03 Activicdad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE04FE02ACED2F6003B06DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE04FE22ACED2F6003B06DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE04FE42ACED2F6003B06DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE04FE72ACED2F6003B06DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE04FE92ACED2F7003B06DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE04FEC2ACED2F7003B06DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE04FEE2ACED2F7003B06DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE04FF32ACED2F8003B06DB /* 03 ActivicdadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 ActivicdadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE04FF72ACED2F8003B06DB /* _3_ActivicdadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_ActivicdadTests.swift; sourceTree = "<group>"; };
+		DDE04FF92ACED2F8003B06DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE04FFE2ACED2F8003B06DB /* 03 ActivicdadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03 ActivicdadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE050022ACED2F8003B06DB /* _3_ActivicdadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3_ActivicdadUITests.swift; sourceTree = "<group>"; };
+		DDE050042ACED2F8003B06DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE04FDA2ACED2F6003B06DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FF02ACED2F8003B06DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FFB2ACED2F8003B06DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE04FD42ACED2F5003B06DB = {
+			isa = PBXGroup;
+			children = (
+				DDE04FDF2ACED2F6003B06DB /* 03 Activicdad */,
+				DDE04FF62ACED2F8003B06DB /* 03 ActivicdadTests */,
+				DDE050012ACED2F8003B06DB /* 03 ActivicdadUITests */,
+				DDE04FDE2ACED2F6003B06DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE04FDE2ACED2F6003B06DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04FDD2ACED2F6003B06DB /* 03 Activicdad.app */,
+				DDE04FF32ACED2F8003B06DB /* 03 ActivicdadTests.xctest */,
+				DDE04FFE2ACED2F8003B06DB /* 03 ActivicdadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE04FDF2ACED2F6003B06DB /* 03 Activicdad */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04FE02ACED2F6003B06DB /* AppDelegate.swift */,
+				DDE04FE22ACED2F6003B06DB /* SceneDelegate.swift */,
+				DDE04FE42ACED2F6003B06DB /* ViewController.swift */,
+				DDE04FE62ACED2F6003B06DB /* Main.storyboard */,
+				DDE04FE92ACED2F7003B06DB /* Assets.xcassets */,
+				DDE04FEB2ACED2F7003B06DB /* LaunchScreen.storyboard */,
+				DDE04FEE2ACED2F7003B06DB /* Info.plist */,
+			);
+			path = "03 Activicdad";
+			sourceTree = "<group>";
+		};
+		DDE04FF62ACED2F8003B06DB /* 03 ActivicdadTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE04FF72ACED2F8003B06DB /* _3_ActivicdadTests.swift */,
+				DDE04FF92ACED2F8003B06DB /* Info.plist */,
+			);
+			path = "03 ActivicdadTests";
+			sourceTree = "<group>";
+		};
+		DDE050012ACED2F8003B06DB /* 03 ActivicdadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE050022ACED2F8003B06DB /* _3_ActivicdadUITests.swift */,
+				DDE050042ACED2F8003B06DB /* Info.plist */,
+			);
+			path = "03 ActivicdadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE04FDC2ACED2F6003B06DB /* 03 Activicdad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE050072ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 Activicdad" */;
+			buildPhases = (
+				DDE04FD92ACED2F6003B06DB /* Sources */,
+				DDE04FDA2ACED2F6003B06DB /* Frameworks */,
+				DDE04FDB2ACED2F6003B06DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03 Activicdad";
+			productName = "03 Activicdad";
+			productReference = DDE04FDD2ACED2F6003B06DB /* 03 Activicdad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE04FF22ACED2F8003B06DB /* 03 ActivicdadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE0500A2ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 ActivicdadTests" */;
+			buildPhases = (
+				DDE04FEF2ACED2F8003B06DB /* Sources */,
+				DDE04FF02ACED2F8003B06DB /* Frameworks */,
+				DDE04FF12ACED2F8003B06DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE04FF52ACED2F8003B06DB /* PBXTargetDependency */,
+			);
+			name = "03 ActivicdadTests";
+			productName = "03 ActivicdadTests";
+			productReference = DDE04FF32ACED2F8003B06DB /* 03 ActivicdadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE04FFD2ACED2F8003B06DB /* 03 ActivicdadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE0500D2ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 ActivicdadUITests" */;
+			buildPhases = (
+				DDE04FFA2ACED2F8003B06DB /* Sources */,
+				DDE04FFB2ACED2F8003B06DB /* Frameworks */,
+				DDE04FFC2ACED2F8003B06DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE050002ACED2F8003B06DB /* PBXTargetDependency */,
+			);
+			name = "03 ActivicdadUITests";
+			productName = "03 ActivicdadUITests";
+			productReference = DDE04FFE2ACED2F8003B06DB /* 03 ActivicdadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE04FD52ACED2F5003B06DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DDE04FDC2ACED2F6003B06DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DDE04FF22ACED2F8003B06DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DDE04FDC2ACED2F6003B06DB;
+					};
+					DDE04FFD2ACED2F8003B06DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DDE04FDC2ACED2F6003B06DB;
+					};
+				};
+			};
+			buildConfigurationList = DDE04FD82ACED2F5003B06DB /* Build configuration list for PBXProject "03 Activicdad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE04FD42ACED2F5003B06DB;
+			productRefGroup = DDE04FDE2ACED2F6003B06DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE04FDC2ACED2F6003B06DB /* 03 Activicdad */,
+				DDE04FF22ACED2F8003B06DB /* 03 ActivicdadTests */,
+				DDE04FFD2ACED2F8003B06DB /* 03 ActivicdadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE04FDB2ACED2F6003B06DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04FED2ACED2F7003B06DB /* LaunchScreen.storyboard in Resources */,
+				DDE04FEA2ACED2F7003B06DB /* Assets.xcassets in Resources */,
+				DDE04FE82ACED2F6003B06DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FF12ACED2F8003B06DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FFC2ACED2F8003B06DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE04FD92ACED2F6003B06DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04FE52ACED2F6003B06DB /* ViewController.swift in Sources */,
+				DDE04FE12ACED2F6003B06DB /* AppDelegate.swift in Sources */,
+				DDE04FE32ACED2F6003B06DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FEF2ACED2F8003B06DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE04FF82ACED2F8003B06DB /* _3_ActivicdadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE04FFA2ACED2F8003B06DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE050032ACED2F8003B06DB /* _3_ActivicdadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE04FF52ACED2F8003B06DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE04FDC2ACED2F6003B06DB /* 03 Activicdad */;
+			targetProxy = DDE04FF42ACED2F8003B06DB /* PBXContainerItemProxy */;
+		};
+		DDE050002ACED2F8003B06DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE04FDC2ACED2F6003B06DB /* 03 Activicdad */;
+			targetProxy = DDE04FFF2ACED2F8003B06DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE04FE62ACED2F6003B06DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE04FE72ACED2F6003B06DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE04FEB2ACED2F7003B06DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE04FEC2ACED2F7003B06DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE050052ACED2F8003B06DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE050062ACED2F8003B06DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE050082ACED2F8003B06DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 Activicdad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-Activicdad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE050092ACED2F8003B06DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 Activicdad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-Activicdad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE0500B2ACED2F8003B06DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 ActivicdadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-ActivicdadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03 Activicdad.app/03 Activicdad";
+			};
+			name = Debug;
+		};
+		DDE0500C2ACED2F8003B06DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 ActivicdadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-ActivicdadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03 Activicdad.app/03 Activicdad";
+			};
+			name = Release;
+		};
+		DDE0500E2ACED2F8003B06DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 ActivicdadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-ActivicdadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03 Activicdad";
+			};
+			name = Debug;
+		};
+		DDE0500F2ACED2F8003B06DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "03 ActivicdadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "victor.rubio.-3-ActivicdadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "03 Activicdad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE04FD82ACED2F5003B06DB /* Build configuration list for PBXProject "03 Activicdad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE050052ACED2F8003B06DB /* Debug */,
+				DDE050062ACED2F8003B06DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE050072ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 Activicdad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE050082ACED2F8003B06DB /* Debug */,
+				DDE050092ACED2F8003B06DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE0500A2ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 ActivicdadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0500B2ACED2F8003B06DB /* Debug */,
+				DDE0500C2ACED2F8003B06DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE0500D2ACED2F8003B06DB /* Build configuration list for PBXNativeTarget "03 ActivicdadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE0500E2ACED2F8003B06DB /* Debug */,
+				DDE0500F2ACED2F8003B06DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE04FD52ACED2F5003B06DB /* Project object */;
+}
